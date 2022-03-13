@@ -23,7 +23,7 @@ randomNumber(1) // 0
 ```
 
 ## Development
-To install test dependencies use `yarn install`, test with `yarn test`
+To install test dependencies use `npm i`, test with `npm run test`
 
 ## Motivation
 I needed a small heroku name generator, similar npm packages had an unpacked size of over 25KB! So I found a ruby gem, mainly for the word list, and wrote it up in ES6.
