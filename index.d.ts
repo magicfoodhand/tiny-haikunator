@@ -4,10 +4,12 @@ export const defaultNouns: string[]
 
 export const randomNumber: (max: number) => number
 
-const haikunate : (props: {
+type HaikunateProps = {
     maxValue: number,
     adjectives: string[],
     nouns: string[]
-}) => string
+}
+
+declare const haikunate : (props?: HaikunateProps) => string
 
 export default haikunate
