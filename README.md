@@ -1,3 +1,5 @@
+[![Node.js Package](https://github.com/magicfoodhand/tiny-haikunator/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/magicfoodhand/tiny-haikunator/actions/workflows/npm-publish.yml)
+
 # Tiny Haikunator
 A dependency free heroku-like random name generator insprired by the ruby gem [haikunator](https://github.com/usmanbashir/haikunator).
 
