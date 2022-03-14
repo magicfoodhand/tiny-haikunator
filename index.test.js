@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import haikunate, {randomNumber} from "../index.js"
+import haikunate, {randomNumber} from "./index.js"
 
 describe('tiny-haikunate', function () {
   describe('#randomValue()', function () {
