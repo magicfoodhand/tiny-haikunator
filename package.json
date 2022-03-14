@@ -1,7 +1,15 @@
 {
   "name": "tiny-haikunator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small heroku like random name generator insprired by the ruby gem haikunator.",
+  "homepage": "https://github.com/magicfoodhand/tiny-haikunator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magicfoodhand/tiny-haikunator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magicfoodhand/tiny-haikunator/issues"
+  },
   "author": "magicfoodhand",
   "license": "MIT",
   "type": "module",
