@@ -1,4 +1,4 @@
-[![Node.js Package](https://github.com/magicfoodhand/tiny-haikunator/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/magicfoodhand/tiny-haikunator/actions/workflows/npm-publish.yml)
+[![Node.js Package](https://github.com/magicfoodhand/tiny-haikunator/actions/workflows/npm-test.yml/badge.svg)](https://github.com/magicfoodhand/tiny-haikunator/actions/workflows/npm-test.yml)
 
 # Tiny Haikunator
 A dependency free heroku-like random name generator insprired by the ruby gem [haikunator](https://github.com/usmanbashir/haikunator).
@@ -15,17 +15,20 @@ haikunate()
 All objects and functions are available for you to extend however you need, configuration is passed into the haikunate function. The configuration values are shown individually below. 
 
 ```javascript
-import haikunate, {defaultAdjectives, defaultNouns, randomNumber} from 'tiny-haikunator'
+import haikunate, {defaultAdjectives, defaultNouns, randomNumber, toChars} from 'tiny-haikunator'
 
 haikunate({nouns: ['car']}) // cold-car-8829
 haikunate({adjectives: ['spicy']}) // spicy-rain-5643
 haikunate({maxValue: 100}) // spring-breeze-37
+haikunate({useChars: true}) // hidden-river-a7a
 
 randomNumber(1) // 0
+toChars(37) // B
+toChars(37, 'na') // ananna
 ```
 
 ## Development
 To install test dependencies use `npm i`, test with `npm run test`
 
 ## Motivation
-I needed a small heroku name generator, similar npm packages had an unpacked size of over 25KB! So I found a ruby gem, mainly for the word list, and wrote it up in ES6.
+I needed a small heroku style name generator. So I found a ruby gem, mainly for the word list, and wrote it up in ES6.

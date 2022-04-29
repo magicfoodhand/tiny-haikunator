@@ -19,14 +19,12 @@ describe('tiny-haikunate', function () {
     
     it('can override nouns', function () {
       const result = haikunate({nouns: ['car']})
-      console.log(result)
       const parts = result.split('-')
       expect(parts[1]).to.equal('car')
     });
 
     it('can override adjectives', function () {
       const result = haikunate({adjectives: ['spicy']})
-      console.log(result)
       const parts = result.split('-')
       expect(parts[0]).to.equal('spicy')
     });
