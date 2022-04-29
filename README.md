@@ -1,7 +1,7 @@
 [![Node.js Package](https://github.com/magicfoodhand/tiny-haikunator/actions/workflows/npm-test.yml/badge.svg)](https://github.com/magicfoodhand/tiny-haikunator/actions/workflows/npm-test.yml)
 
 # Tiny Haikunator
-A dependency free heroku-like random name generator insprired by the ruby gem [haikunator](https://github.com/usmanbashir/haikunator).
+A dependency free heroku-like random name generator inspired by the ruby gem [haikunator](https://github.com/usmanbashir/haikunator).
 
 ## Usage
 
@@ -23,7 +23,7 @@ haikunate({maxValue: 100}) // spring-breeze-37
 haikunate({useChars: true}) // hidden-river-a7a
 
 randomNumber(1) // 0
-toChars(37) // B
+toChars(37) // bb
 toChars(37, 'na') // ananna
 ```
 
