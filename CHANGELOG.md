@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.6] - 2022-04-29
+Add .npmignore, update micro-haikunator to 1.0.6
+
 ## [1.0.5] - 2022-04-28
 Use micro-haikunator, add useChars option and toChars function
 
