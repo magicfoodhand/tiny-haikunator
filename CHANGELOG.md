@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2024-03-29
+Add JSDoc, update micro-haikunator to 1.1.1
+
 ## [1.0.7] - 2022-04-29
 Add .github to .npmignore, update micro-haikunator to 1.0.7
 
